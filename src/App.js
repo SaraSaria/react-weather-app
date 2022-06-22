@@ -1,10 +1,12 @@
+import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1> Weather App</h1>
+        <Weather />
         <footer>
           Open-sourced code by Sara SM on {""}
           <a
