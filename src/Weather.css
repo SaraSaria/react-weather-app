@@ -30,9 +30,8 @@
   list-style: none;
 }
 
-.Weather img {
-  line-height: 64px;
-  width: 64px;
+.Weather canvas {
+  margin-top: 5px;
   display: inline-block;
   margin-right: 10px;
   float: left;
