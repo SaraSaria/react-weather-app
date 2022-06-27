@@ -37,6 +37,7 @@ export default function WeatherTemperature(props) {
           </a>{" "}
           | ºF
         </span>
+        <p>holi</p>
       </div>
     );
   }
