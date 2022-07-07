@@ -1,33 +1,47 @@
+body {
+  background: #ebfbfc;
+}
+
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1px solid #dfc6f3;
   font-family: arial, sans-serif;
   color: #878787;
   color: rgb(135, 135, 135);
   padding: 16px;
   margin: 30px auto;
-  border-radius: 4px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background: #fff;
 }
 
 .Weather h1 {
   display: block;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 32px;
+  font-weight: 400;
   height: 28px;
   line-height: 29px;
   text-align: left;
   margin: 20px 0 0 0;
 }
+.btn {
+  background: #9adfd8;
+}
 
+.btn:hover {
+  background: #ce9ef6;
+}
 .Weather ul {
   margin: 0;
   padding: 0;
 }
 
 .Weather li {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .Weather canvas {
